@@ -1,14 +1,16 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'standalone',
-  async rewrites() {
+  reactStrictMode: true,
+  trailingSlash: true,
+  async redirects() {
     return [
       {
-        source: '/:path*',
+        source: '/poslugi',
         destination: '/',
+        permanent: true,
       },
-    ];
+    ]
   },
-};
+}
 
-module.exports = nextConfig;
+module.exports = nextConfig
