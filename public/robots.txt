@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://vantazhni-perevezennia.com.ua/sitemap.xml
