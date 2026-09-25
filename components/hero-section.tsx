@@ -63,10 +63,10 @@ export function HeroSection() {
           <div className="relative">
             <div className="relative z-10">
               <Image
-                src="/images/super-hero-mover.png"
-                alt="SUPER ВАНТАЖНИК - професійні послуги вантажників та клінінгу у Житомирі: переїзди, підйом матеріалів, демонтаж, прибирання"
-                width={500}
-                height={600}
+                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/photo_2026-09-21_21-54-28-fnqWsXY8sUmHydzazGkTp0tir8lAqJ.jpg"
+                alt="SUPER ВАНТАЖНИК — команда вантажників, переїзди, прибирання та ремонтні роботи у Житомирі"
+                width={1254}
+                height={1254}
                 className="w-full h-auto max-w-md mx-auto"
                 priority
               />
